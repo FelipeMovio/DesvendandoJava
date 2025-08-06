@@ -5,6 +5,7 @@ public class Item {
     private String nome;
     private double preco;
 
+    // Construtor da classe Item
     public Item(String nome, double preco) {
         this.nome = nome;
         this.preco = preco;
