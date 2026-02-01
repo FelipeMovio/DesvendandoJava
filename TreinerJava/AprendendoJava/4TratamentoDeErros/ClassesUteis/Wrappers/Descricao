@@ -1,0 +1,12 @@
+Em Java, os wrappers (ou classes wrapper) são classes que permitem que tipos primitivos sejam tratados como objetos.
+Cada tipo primitivo tem uma classe wrapper correspondente que encapsula o valor do tipo primitivo em um objeto.
+Isso é útil em várias situações, como quando se trabalha com coleções que só aceitam objetos (como ArrayList, HashMap, etc.).
+
+int = Integer
+boolean = Boolean
+char = Character
+byte = Byte
+short = Short
+long = Long
+float = Float
+double = Double

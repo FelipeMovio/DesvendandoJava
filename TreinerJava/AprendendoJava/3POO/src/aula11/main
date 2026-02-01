@@ -1,0 +1,9 @@
+        Aluno a1 = new Aluno();
+        a1.setNome("felipe");
+        a1.setCurso("matematica");
+        a1.pagarMensalidade();
+
+        Bolsista b1 = new Bolsista();
+        b1.setNome("maicon");
+        b1.renovarBolsa();
+        b1.pagarMensalidade();

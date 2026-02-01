@@ -1,0 +1,17 @@
+1. ArrayList
+Armazenamento: Usa um array dinâmico para armazenar os elementos. Quando o array atinge sua capacidade máxima, um novo array maior é criado e os elementos são copiados para ele.
+Ordem: Mantém a ordem de inserção dos elementos.
+Desempenho:
+Acesso a elementos: O(1) (rápido, pois usa um array).
+Adição de elementos: O(1) em média, mas O(n) no pior caso (quando é necessário redimensionar o array).
+Remoção de elementos: O(n) (pode exigir a movimentação de elementos).
+Sincronização: Não é sincronizado, o que significa que não é seguro para uso em múltiplas threads sem sincronização externa.
+
+2. LinkedList
+Armazenamento: Usa uma lista duplamente encadeada, onde cada elemento (nó) contém referências para o próximo e o anterior.
+Ordem: Mantém a ordem de inserção dos elementos.
+Desempenho:
+Acesso a elementos: O(n) (mais lento, pois é necessário percorrer a lista).
+Adição de elementos: O(1) (rápido, especialmente para adições no início ou no final).
+Remoção de elementos: O(1) (rápido, especialmente para remoções no início ou no final).
+Sincronização: Não é sincronizado, assim como o ArrayList.
