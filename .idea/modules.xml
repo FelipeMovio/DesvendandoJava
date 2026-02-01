@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TreinerJava/AprendendoJava/1FundamentosJava/1FundamentosJava.iml" filepath="$PROJECT_DIR$/TreinerJava/AprendendoJava/1FundamentosJava/1FundamentosJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TreinerJava/AprendendoJava/2EstruturasDeDados/2EstruturasDeDados.iml" filepath="$PROJECT_DIR$/TreinerJava/AprendendoJava/2EstruturasDeDados/2EstruturasDeDados.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TreinerJava/AprendendoJava/3POO/3POO.iml" filepath="$PROJECT_DIR$/TreinerJava/AprendendoJava/3POO/3POO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TreinerJava/AprendendoJava/4TratamentoDeErros/4TratamentoDeErros.iml" filepath="$PROJECT_DIR$/TreinerJava/AprendendoJava/4TratamentoDeErros/4TratamentoDeErros.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TreinerJava/AprendendoJava/AprendendoJava.iml" filepath="$PROJECT_DIR$/TreinerJava/AprendendoJava/AprendendoJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TreinerJava/CollectionsJava/CollectionsJava.iml" filepath="$PROJECT_DIR$/TreinerJava/CollectionsJava/CollectionsJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesvendandoJava.iml" filepath="$PROJECT_DIR$/DesvendandoJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TreinerJava/IntefaceGrafica/IntefaceGrafica.iml" filepath="$PROJECT_DIR$/TreinerJava/IntefaceGrafica/IntefaceGrafica.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TreinerJava/desafiosDiarios/desafiosDiarios.iml" filepath="$PROJECT_DIR$/TreinerJava/desafiosDiarios/desafiosDiarios.iml" />
+    </modules>
+  </component>
+</project>
