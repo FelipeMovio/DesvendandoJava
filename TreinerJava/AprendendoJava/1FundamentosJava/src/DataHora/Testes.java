@@ -4,7 +4,6 @@ import java.time.LocalDate;
 import java.time.LocalTime;
 
 public class Testes {
-    public class Main {
         public static void main(String[] args) {
             String tarefa = "Enviar relatório semanal";
 
@@ -16,4 +15,3 @@ public class Testes {
             System.out.println("Hora de criação: " + horaCriacao);
         }
     }
-}
