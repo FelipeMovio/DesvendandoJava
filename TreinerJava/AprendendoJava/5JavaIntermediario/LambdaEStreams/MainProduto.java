@@ -1,10 +1,7 @@
 package LambdaEStreams;
 
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
-import java.util.Optional;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class MainProduto {
@@ -20,12 +17,35 @@ public class MainProduto {
 
             // código usando streams
 
+            //Dada a lista de produtos acima, agrupe-os por categoria em um Map<String, List<Produto>>.
             Map<String, List<ProdutoStreamTrein>> agrupamentos = produtos.stream()
                     .collect(Collectors.groupingBy(ProdutoStreamTrein::getCategoria));
 
             agrupamentos.forEach((categoria, produtoStreamTreins) ->{
                 System.out.println(categoria + ":" + produtoStreamTreins);
             });
+
+            //Dada a lista de produtos acima, conte quantos produtos há em cada categoria e armazene em um Map<String, Long>.
+            Map<String,Long> totalDeProdutosPorCat = produtos.stream()
+                    .collect(Collectors.groupingBy(ProdutoStreamTrein::getCategoria,Collectors.counting()));
+
+            System.out.println(totalDeProdutosPorCat);
+
+            //Dada a lista de produtos acima, encontre o produto mais caro de cada categoria e armazene o resultado em um Map<String, Optional<Produto>>.
+            Map<String, Optional<ProdutoStreamTrein>> maisCaroPorCat = produtos.stream()
+                    .collect(Collectors.groupingBy(ProdutoStreamTrein::getCategoria,
+                            Collectors.maxBy(Comparator.comparingDouble(ProdutoStreamTrein::getPreco))));
+
+
+            maisCaroPorCat.forEach((categoria, produto) ->
+                    System.out.println(categoria + " -> " + produto.orElse(null)));
+
+            //Dada a lista de produtos acima, calcule o total dos preços dos produtos em cada categoria e armazene o resultado em um Map<String, Double>.
+            Map<String, Double> totalPrecoPorCat = produtos.stream()
+                    .collect(Collectors.groupingBy(ProdutoStreamTrein::getCategoria,
+                            Collectors.summingDouble(ProdutoStreamTrein::getPreco)));
+
+            System.out.println(totalPrecoPorCat);
         }
     }
 
