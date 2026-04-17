@@ -1,0 +1,6 @@
+Resumo das Implementações de Map
+HashMap: Não garante a ordem dos elementos. É a implementação mais comum e oferece desempenho rápido para operações básicas (O(1) em média).
+
+LinkedHashMap: Mantém a ordem de inserção dos elementos. É útil quando a ordem é importante e oferece desempenho semelhante ao HashMap.
+
+TreeMap: Armazena os elementos em ordem natural (ou de acordo com um comparador fornecido). As operações básicas têm complexidade O(log n) devido à estrutura de árvore.

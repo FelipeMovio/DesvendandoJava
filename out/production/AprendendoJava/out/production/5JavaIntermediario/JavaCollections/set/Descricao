@@ -1,0 +1,17 @@
+1. HashSet
+Armazenamento: Usa uma tabela hash para armazenar os elementos.
+Ordem: Não garante nenhuma ordem específica de iteração. A ordem pode mudar ao longo do tempo.
+Desempenho: As operações básicas (como adicionar, remover e verificar a presença de um elemento) têm um tempo médio de complexidade de O(1).
+Duplicatas: Não permite elementos duplicados.
+
+2. LinkedHashSet
+Armazenamento: Usa uma tabela hash, mas mantém uma lista duplamente encadeada para manter a ordem de inserção.
+Ordem: Garante que a ordem de iteração seja a mesma em que os elementos foram adicionados.
+Desempenho: As operações básicas têm um tempo médio de complexidade de O(1), mas a iteração é ligeiramente mais lenta do que em um HashSet devido à manutenção da lista encadeada.
+Duplicatas: Não permite elementos duplicados.
+
+3. TreeSet
+Armazenamento: Usa uma árvore de busca binária (geralmente uma árvore rubro-negra) para armazenar os elementos.
+Ordem: Garante que os elementos sejam armazenados em ordem natural (ou de acordo com um comparador fornecido).
+Desempenho: As operações básicas têm um tempo de complexidade de O(log n) devido à estrutura da árvore.
+Duplicatas: Não permite elementos duplicados.
